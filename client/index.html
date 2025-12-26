@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description" content="SentinelOS - AI-Powered Zero-Knowledge Autonomous Agent Ecosystem. Deploy, monitor, and manage autonomous AI agents for DeFi operations on Solana." />
+    <meta name="keywords" content="SentinelOS, AI agents, DeFi, Solana, zero-knowledge, blockchain, autonomous agents" />
+    <meta property="og:title" content="SentinelOS - AI Agent Dashboard" />
+    <meta property="og:description" content="AI-Powered Zero-Knowledge Autonomous Agent Ecosystem on Solana" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#8B7FFF" />
+    <title>SentinelOS - AI Agent Dashboard</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        const stored = localStorage.getItem("sentinel-theme");
+        const theme = stored === "light" || stored === "dark" ? stored : "dark";
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
